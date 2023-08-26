@@ -1,0 +1,4 @@
+{
+  "jest.jestCommandLine": "react-scripts test",
+  "jest.rootPath": "."
+}

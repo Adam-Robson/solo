@@ -1,9 +1,13 @@
 import { render, screen } from '@testing-library/react';
+
+import { Link } from 'react-router-dom';
 import App from './App';
 
 test('renders heading on page', () => {
-  render(<App />);
-  const headingEl = screen.getByText(/this is a portfolio/i);
+  render(
+    <App />
+  );
+  const headingEl = screen.getByText(/hello my name is/i);
   expect(headingEl).toBeInTheDocument();
 });
 
