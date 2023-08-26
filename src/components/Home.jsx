@@ -36,7 +36,7 @@ export default function Home() {
 
         <section className="contact absolute bottom-8 w-full max-w-sm mx-auto flex justify-evenly items-baseline">
 
-          <NavLink
+          <Link
             to="https://www.buymeacoffee.com/AdamRobson"
             className="homelink subpixel-antialiased"
             target="blank"
@@ -46,9 +46,9 @@ export default function Home() {
               size={40}
               data-testid="coffee-icon-link"
             />
-          </NavLink>
+          </Link>
 
-          <NavLink
+          <Link
             to="https://github.com/Adam-Robson"
             className="homelink subpixel-antialiased"
             target="blank"
@@ -58,9 +58,9 @@ export default function Home() {
               size={40}
               data-testid="github-icon-link"
             />
-          </NavLink>
+          </Link>
 
-          <NavLink
+          <Link
             to="https://www.linkedin.com/in/adamrayrobson"
             className="homelink subpixel-antialiased"
             target="blank"
@@ -70,9 +70,9 @@ export default function Home() {
               size={40}
               data-testid="linkedin-icon-link"
             />
-          </NavLink>
+          </Link>
 
-          <NavLink
+          <Link
             to="https://spoti.fi/3QNqMuE"
             className="homelink subpixel-antialiased"
             target="blank"
@@ -82,7 +82,7 @@ export default function Home() {
               size={40}
               data-testid="spotify-icon-link"
             />
-          </NavLink>
+          </Link>
         </section>
       </main>
     </>

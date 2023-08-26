@@ -12,18 +12,16 @@ import '@fontsource-variable/inter';
 
 export default function App() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route index path='/' element={ <Home /> } errorElement={ <NotFound/> } />
-          <Route path='/bio' element={ <Bio /> } />
-          <Route path='/projects' element={ <Projects /> } />
-          <Route path='/resume' element={ <Resume /> } />
-          <Route path='/arts' element={ <Arts /> } />
-          <Route path="/arts/:name" element={ <Writing /> } />
-          <Route path='/misc' element={ <Misc /> } />
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={ <Home /> } errorElement={ <NotFound/> } />
+        <Route path='/bio' element={ <Bio /> } />
+        <Route path='/projects' element={ <Projects /> } />
+        <Route path='/resume' element={ <Resume /> } />
+        <Route path='/arts' element={ <Arts /> } />
+        <Route path='/arts/:name' element={ <Writing /> } />
+        <Route path='/misc' element={ <Misc /> } />
+      </Routes>
+    </Router>
   );
 }
