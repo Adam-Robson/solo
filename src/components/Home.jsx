@@ -11,27 +11,22 @@ export default function Home() {
           <NavLink
             className="homelink text-2xl sm:text-3xl md:text-4xl my-2 lg:my-4 subpixel-antialiased"
             to="/bio"
-            target="blank"
           >bio</NavLink>
           <NavLink
             className="homelink text-2xl sm:text-3xl md:text-4xl my-2 lg:my-4 subpixel-antialiased"
             to="/projects"
-            target="blank"
           >projects</NavLink>
           <NavLink
             className="homelink text-2xl sm:text-3xl md:text-4xl my-2 lg:my-4 subpixel-antialiased"
             to="/arts"
-            target="blank"
           >arts</NavLink>
           <NavLink
             className="homelink text-2xl sm:text-3xl md:text-4xl my-2 lg:my-4 subpixel-antialiased"
             to="/resume"
-            target="blank"
           >resume</NavLink>
           <NavLink
             className="homelink text-2xl sm:text-3xl md:text-4xl my-2 lg:my-4 subpixel-antialiased"
             to="/misc"
-            target="blank"
           >misc.</NavLink>
         </section>
 

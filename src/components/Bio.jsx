@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import chin from '../assets/handchinadam-min.png';
-import scarf from '../assets/scarfheadadam-min.png';
+import chin from '../assets/porttownsend.png';
+import scarf from '../assets/silverfalls.png';
+
 export default function Bio() {
   return (
     <>
